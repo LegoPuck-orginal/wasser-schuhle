@@ -41,10 +41,10 @@
         }
         nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: #c74040;
             padding: 5px 10px;
             border-radius: 5px;
-            background-color: #ddd;
+            background-color: #dabbbb;
         }
         nav ul li a:hover {
             background-color: #bbb;
@@ -52,6 +52,23 @@
         nav ul li a {
             font-size: 20px;
             padding: 10px 20px;
+        }
+        .dark-mode {
+            background-color: #057e7e;
+            color: #e25d5d;
+        }
+        #darkModeButton {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 2;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #ddd;
+            cursor: pointer;
+        }
+        #darkModeButton:hover {
+            background-color: #bbb;
         }
     </style>
 </head>
@@ -70,6 +87,9 @@
             <li><a href="graueswasser.html">Graueswasser</a></li>
             <li><a href="virtueleswasser.html">Virtueleswasser</a></li>
         </ul>
+        <button id="darkModeButton">Toggle Dark Mode</button>
     </nav>
+
+
 </body>
 </html>
